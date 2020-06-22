@@ -1,11 +1,12 @@
 ﻿<AML>
  <Item type="Method" id="BE220F6897784F94A7A37E57B15B1FE2" action="add">
   <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
-  <method_code><![CDATA[return {
+  <method_code>
+      <![CDATA[return {
     "type" : "text",
     "label" : aras.getDatabase(),
     "cssClass" : "aras-toolbar__title",
-    "cssStyle" : "font-size: 12pt; font-weight: bold;"
+    "cssStyle" : "font-size: 12pt; font-weight: bold;padding-top: 6px;background-image: url(data:image/svg+xml,%3Csvg%20height%3D%2248%22%20viewBox%3D%220%200%2048%2048%22%20width%3D%2248%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m4%2040h40v-8h-40zm4-6h4v4h-4zm-4-26v8h40v-8zm8%206h-4v-4h4zm-8%2014h40v-8h-40zm4-6h4v4h-4z%22%20fill%3D%22%23777%22%2F%3E%3C%2Fsvg%3E);background-size: 20px;background-repeat: no-repeat;padding-left: 25px;background-position-y: 6px;"
 };]]></method_code>
   <method_type>JavaScript</method_type>
   <name>labs_setDatabaseHeader</name>
